@@ -38,6 +38,7 @@ function main() {
 var player1;
 var player2;
 
+player1.action = 11; // crouch
 var resources = [];
 resources.push( new resource( 'chars', 'SF3_Ryu' ) );
 //resources.push( new resource( 'chars', 'sf3_gouki' ) ); // Another character
