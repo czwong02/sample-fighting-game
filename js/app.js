@@ -146,6 +146,7 @@ function reset() {
 	player1.pos = { x : canvasWidth / 2 - 70, y : canvasHeight - 70 };
 	player1.palette = player1.SFF.palette;
 	player1.right = 1;
+	player1.action = 11;
 	
 	player2 = new player( resources[ 0 ] );
 	//player2 = new player( resources[ 1 ] ); // Another character
